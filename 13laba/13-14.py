@@ -35,7 +35,7 @@ def rotation_task():
                     for row in global_matrix:
                         print(row)
                     matrix_changed = False
-        time.sleep(0.1)  # Небольшая задержка, чтобы не нагружать процессор
+        time.sleep(0.1)  # Небольшая задержка, чтобы не нагружать ноут
 
 def main():
     global global_matrix, matrix_changed
